@@ -1,0 +1,1 @@
+javac client/*.java middleware/*.java server/ResInterface/*.java server/ResImpl/*.java

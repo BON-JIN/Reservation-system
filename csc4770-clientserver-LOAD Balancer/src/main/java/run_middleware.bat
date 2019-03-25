@@ -1,0 +1,1 @@
+java -Djava.security.manager -Djava.security.policy=C:\Users\nakam\Desktop\ClientServer\csc4770-clientserver\src\main\java\myCustomized.policy middleware.MiddlewareServer 5000 4000

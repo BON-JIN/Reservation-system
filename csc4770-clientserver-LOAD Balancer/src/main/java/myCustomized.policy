@@ -1,0 +1,10 @@
+//grant codeBase "file:C:\Users\nakam\Desktop\ClientServer\csc4770-clientserver\-" {
+////////////////   above is the full path, but did not work.
+
+
+//Instead I set the grant for every subdirectries under my home directory which is very unsecured.
+grant codeBase "file:C:\-" {
+    permission java.security.AllPermission;
+};
+
+

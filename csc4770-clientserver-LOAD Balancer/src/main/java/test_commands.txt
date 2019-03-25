@@ -1,0 +1,32 @@
+help
+newflight, 1, 123, 50, 45
+newflight, 1, 124, 50, 150
+newflight, 1, 125, 35, 78
+newcar, 1, Cookeville, 12, 100
+newroom, 1, Sparta, 20, 85
+newroom, 1, Cookeville, 20, 85
+newcustomer, 1
+newcustomerid, 1, 5
+queryflight, 1, 123
+querycar, 1, Cookeville
+queryroom, 1, Sparta
+queryflightprice, 1, 123
+querycarprice, 1, Cookeville
+queryroomprice, 1, Sparta
+reserveflight, 1, 5, 123
+reservecar, 1, 5, Cookeville
+reserveroom, 1, 5, Sparta
+itinerary, 1, 5, 124, 125, Cookeville, true, true
+querycustomer, 1, 5
+querycar, 1, Cookeville
+queryroom, 1, Cookeville
+queryflight, 1, 124
+queryflight, 1, 125
+deletecustomer, 1, 5
+deleteflight, 1, 123
+deleteflight, 1, 124
+deleteflight, 1, 125
+deletecar, 1, Cookeville
+deleteroom, 1, Sparta
+deleteroom, 1, Cookeville
+quit
